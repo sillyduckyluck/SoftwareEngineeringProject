@@ -1,4 +1,33 @@
 <resources>
     <string name="app_name">BattleBishops</string>
+
+    <!-- activity_main -->
+
+    <string name="blabel_create">CREATE VARIANT</string>
+    <string name="blabel_choose">CHOOSE VARIANT</string>
+    <string name="blabel_play">PLAY VARIANT</string>
+
+    <string name="tv_battlebishops">BATTLE BISHOPS</string>
+
+    <!-- create_variant_activity -->
+
+    <string name="tv_win_conditions">WIN CONDITIONS</string>
+
+    <string name="slabel_3_checks">3 Checks</string>
+    <string name="slabel_kingofthehill">King of the Hill</string>
+    <string name="slabel_checkmate">Checkmate</string>
+    <string name="slabel_extinction">Extinction</string>
+
+    <string name="tv_size_of_board">Size of the board (nxn):</string>
+    <string name="tv_rule_variations">RULE VARIATIONS</string>
+
+    <string name="slabel_preplacement">Piece Replacement</string>
+    <string name="slabel_Andernach">Andernach Rules</string>
+    <string name="slabel_icelandic">Icelandic Rules</string>
+    <string name="slabel_friendly_fire">Friendly Fire</string>
+    <string name="slabel_checkless">Checkless Chess</string>
+
+    <string name="blabel_continue">Continue</string>
+
     <string name="title_activity_choose_variant_activity">choose_variant_activity</string>
 </resources>

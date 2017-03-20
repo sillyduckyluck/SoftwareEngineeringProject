@@ -21,7 +21,7 @@
             android:id="@+id/wincon_textview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="WIN CONDITIONS"
+            android:text="@string/tv_win_conditions"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
         <Switch
@@ -33,7 +33,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:text="3 Checks"
+            android:text="@string/slabel_3_checks"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
@@ -47,7 +47,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:text="King of the Hill"
+            android:text="@string/slabel_kingofthehill"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
@@ -61,7 +61,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:text="Checkmate"
+            android:text="@string/slabel_checkmate"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
@@ -75,7 +75,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:text="Extinction"
+            android:text="@string/slabel_extinction"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
@@ -101,7 +101,7 @@
             android:layout_width="0dp"
             android:layout_height="78dp"
             android:layout_weight="5.43"
-            android:text="Size of the board (nxn):"
+            android:text="@string/tv_size_of_board"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="16dp"
@@ -133,7 +133,7 @@
             android:id="@+id/Variations"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RULE VARIATIONS"
+            android:text="@string/tv_rule_variations"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
         <Switch
@@ -145,7 +145,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:text="Piece Replacement"
+            android:text="@string/slabel_preplacement"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
@@ -159,7 +159,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:text="Andernach Rules"
+            android:text="@string/slabel_Andernach"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
@@ -173,7 +173,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:text="Icelandic Rules"
+            android:text="@string/slabel_icelandic"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/switch7" />
@@ -187,7 +187,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:text="Friendly Fire"
+            android:text="@string/slabel_friendly_fire"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
@@ -201,7 +201,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:text="Checkless Chess"
+            android:text="@string/slabel_checkless"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/andernach_switch" />
@@ -213,7 +213,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginRight="8dp"
-        android:text="Continue"
+        android:text="@string/blabel_continue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
