@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BattleBishops</string>
+    <string name="title_activity_choose_variant_activity">choose_variant_activity</string>
+</resources>
